@@ -19,3 +19,4 @@ console.log(name.includes("e"))
 console.log(name[0])
 // Write the code that will log the string in all uppercase letters.
 console.log(name.toUpperCase())
+//new line
