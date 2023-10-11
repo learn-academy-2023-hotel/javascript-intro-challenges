@@ -9,13 +9,46 @@
 // Write the code that will log the character at the first index of the string.
 // Write the code that will log the string in all uppercase letters.
 
-console.log(34+71)
-console.log(123-67)
-console.log(56*23)
-console.log(45/5)
-console.log(5**7)
-console.log(33%5)
-console.log("kevin".length)
-console.log("kevin".includes("e"))
-console.log("kevin"[0])
-console.log("kevin".toUpperCase())
+// console.log(34+71)
+// console.log(123-67)
+// console.log(56*23)
+// console.log(45/5)
+// console.log(5**7)
+// console.log(33%5)
+// console.log("kevin".length)
+// console.log("kevin".includes("e"))
+// console.log("kevin"[0])
+// console.log("kevin".toUpperCase())
+
+//Write the code that will log theAnswer divided by 2.
+// Write the code that will log the whole number remainder of theAnswer when divided by 3.
+// Write the code that will log the length of theQuestion.
+// Write the code that will log the length of theQuestion divided by 2.
+// Write the code that will log the length of theQuestion added to theAnswer.
+// Write the code that will log the index of the character "f" in the theQuestion.
+// Write the code that will log the index of the second comma in the theQuestion.
+// Write the code that will log the concatenation of the two variables.
+// Write the code that will log the character "l" from theQuestion.
+// Write the code that will extract "the universe" from theQuestion.
+// Write the code that will extract "everything" from theQuestion.
+// Write the code that will log the last character of theQuestion without manually counting the number of characters.
+
+// var theAnswer= 42
+// console.log(theAnswer / 2)
+
+// console.log(theAnswer%3)
+
+// var theQuestion= "Life, the universe, and everything"
+// console.log(theQuestion.length)
+
+// console.log(theQuestion.length / 2) 
+
+// console.log(theQuestion.length + theAnswer)
+
+// console.log(theQuestion[2])
+
+// console.log(theQuestion[18])
+
+// console.log(theQuestion + theAnswer)
+
+// console.log(theQuestion.indexOf("l"))
