@@ -34,3 +34,4 @@ console.log(string[0])
 
 // Write the code that will log the string in all uppercase letters.
 console.log(string.toUpperCase())
+
