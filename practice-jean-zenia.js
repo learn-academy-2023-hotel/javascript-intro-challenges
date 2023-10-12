@@ -55,9 +55,29 @@
 //     console.log("computer above budget")
 //  }
 
-let Jean = "hungry"
-    if (Jean = "hungry") {
-        console.log("eat food")
-    } else {
-        console.log("keep coding!")
-    }
+// // let Jean = "hungry"
+//     if (Jean = "hungry") {
+//         console.log("eat food")
+//     } else {
+//         console.log("keep coding!")
+//     }
+
+// let trafficLight = "yellow" 
+// if (trafficLight === "green") {
+//     console.log("go!")
+// } else if (trafficLight === "yellow") {
+//     console.log("slow down!")
+// } else {
+//     console.log("stop!")
+// }
+
+// const number1 = 7
+// const number2 = 12
+// console.log(`${number1} is less than ${number2}`)
+
+// if (number1 => number2) {
+//     console.log("the numbers are the same")
+//     } else {
+//         console.log("the numbers are not the same")
+//     }
+
