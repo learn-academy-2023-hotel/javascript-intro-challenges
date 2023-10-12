@@ -47,3 +47,73 @@
 //console.log(numSet.indexOf(2)
 // console.log(numSet.lastIndexOf(2))
 // console.log(numSet.indexOf(8))
+
+
+
+
+
+
+
+/////////////// ********LOOPS******//////////////
+
+// Javascript Loops
+// Create a for loop that logs each number from 1 - 20.
+// Create a for loop that logs every other number from 1 - 20.
+// Create a for loop that logs the result of each number from 1 - 20 tripled.
+// Create a for loop that logs each even number from 1-20, and in the place of every odd number, returns the word "ODD".
+// Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
+
+
+// var myList = []
+// for(let i=1; i < 21; i++){
+//     myList.push(i)
+//     console.log(i)
+// }
+// console.log(myList)
+
+
+// for(let i=1; i < 21; i +=2){
+//     console.log(i)
+// }
+
+// for(let i=1; i < 21; i++){
+//     console.log(i * 3)
+// }
+
+// for(let i=1; i <21; i++){
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+//     else(console.log("ODD"))
+
+//     }
+
+//                Part two          ///////
+
+// Create the code that will log the largest number from the array.
+// Create the code that will log the smallest number from the array.
+// Create the code that will log the remainder of each number when divided by 2.
+// Expected output: 1, 1, -1, 0, 1
+
+//const nums = [3, 57, -9, 20, 67]
+// let largestNumber = nums[0]
+
+// for(let i = 1; i < nums.length; i ++){
+//     if(nums[i] > largestNumber){
+//         largestNumber = nums[i]
+//     }
+//     }
+// console.log(largestNumber)
+
+// let smallestNumber = nums[0]
+// for(let i = 1; i < nums.length; i++){
+//     if(nums[i] < smallestNumber){
+//         smallestNumber = nums[i]
+//     }
+// }
+// console.log(smallestNumber)
+// const nums = [3, 57, -9, 20, 67]
+// for(let i=0; i < nums.length; i++){
+//     console.log(nums[i] % 2)
+// }
+
