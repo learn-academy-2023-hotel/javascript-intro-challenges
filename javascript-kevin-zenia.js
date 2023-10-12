@@ -37,3 +37,13 @@
 // var notUnshift = [0]
 // var conCat = [notUnshift.concat(numbers)]
 // console.log(conCat)
+
+// Write the code that finds the index of the first appearance of the number 2.
+// Write the code that finds the index of the last appearance of the number 2.
+// Write the code that returns the number at the third index.
+
+// var numSet = [2, 13, 6, 8, 4, 2]
+
+//console.log(numSet.indexOf(2)
+// console.log(numSet.lastIndexOf(2))
+// console.log(numSet.indexOf(8))
