@@ -31,7 +31,7 @@
 // console.log(groceryList2)
 
 //part 2
-var numbers = [2, 4, 6, 8, 10]
+// var numbers = [2, 4, 6, 8, 10]
 
 // Write the code that will add the number 0 to the beginning of the array.
 // console.log(numbers.unshift(0))
@@ -43,23 +43,51 @@ var numbers = [2, 4, 6, 8, 10]
 // console.log(numbers.shift())
 // console.log(numbers)
 // Write the code that will add the number 0 to the beginning of the array without altering the original array.
-var number2 = [0]
-console.log(number2.concat(numbers))
+// var number2 = [0]
+// console.log(number2.concat(numbers))
 
 //part 3
-var numSet = [2, 13, 6, 8, 4, 2]
+// var numSet = [2, 13, 6, 8, 4, 2]
 // Write the code that finds the index of the first appearance of the number 2.
 // for(let i = 0; i < numSet.length; i++){
 //     if (numSet[i] === 2){
 //         console.log(i)
 //     }
 // }
-console.log(numSet.indexOf(2))
-// Write the code that finds the index of the last appearance of the number 2.
-console.log(numSet.lastIndexOf(2))
-// Write the code that returns the number at the third index.
-// console.log(numSet.slice(3))  ---->outputs 8,4,2
-console.log(numSet.slice(3,4))
+// console.log(numSet.indexOf(2))
+// // Write the code that finds the index of the last appearance of the number 2.
+// console.log(numSet.lastIndexOf(2))
+// // Write the code that returns the number at the third index.
+// // console.log(numSet.slice(3))  ---->outputs 8,4,2
+// console.log(numSet.slice(3,4))
 
 // var learnStudents = ["Debra", "Mary", "Jonas", "Joel"]
 // console.log(learnStudents.slice(2,3))
+
+var characters = ["y", "a", "r", "r", "a"]
+
+// Write the code that brings all the letters in the characters array together into a string.
+console.log(characters.join(""))
+// Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+console.log(characters.reverse())
+var charsReversed = characters.reverse()
+console.log(charsReversed)
+// Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+console.log(charsReversed.join("*"))
+// Write the code that brings all the letters in the charsReversed array together into a string without separators.
+console.log(charsReversed.join(""))
+
+
+
+
+// Create two arrays consisting of three first names of your cohort members in each array.
+var members1 = ["joseph", "adrian", "justin"]
+var members2 = ["jean", "ron", "judas"]
+// Write the code that sorts the names in alphabetical order.
+console.log(members1.sort())
+console.log(members2.sort())
+// Write the code that sorts the names in reverse alphabetical order.
+console.log(members1.sort().reverse())
+console.log(members2.sort().reverse())
+// Write the code that sorts all the names in alphabetical order in a single array.
+console.log(members1.concat(members2).sort())
