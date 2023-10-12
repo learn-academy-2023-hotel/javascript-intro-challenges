@@ -15,3 +15,17 @@
 
 // groceryList.push("beans")
 // console.log(groceryList)
+
+//Write the code that will add the number 0 to the beginning of the array.
+//Write the code that will add the number 12 to the end of the array.
+//Write the code that will remove the first number from the array.
+//Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
+
+//var numbers = [2, 4, 6, 8, 10]
+//numbers.unshift(0)
+//console.log(numbers)
+
+var numbers = [2, 4, 6, 8, 10]
+numbers.push(12)
+console.log(numbers)
+
