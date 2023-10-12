@@ -137,3 +137,56 @@
 //     else(console.log("ODD"))
 
 //     }
+
+//               Part two          ///////
+// Create the code that will log the largest number from the array.
+// Create the code that will log the smallest number from the array.
+// Create the code that will log the remainder of each number when divided by 2.
+// Expected output: 1, 1, -1, 0, 1
+//const nums = [3, 57, -9, 20, 67]
+// let largestNumber = nums[0]
+// for(let i = 1; i < nums.length; i ++){
+//     if(nums[i] > largestNumber){
+//         largestNumber = nums[i]
+//     }
+//     }
+// console.log(largestNumber)
+// let smallestNumber = nums[0]
+// for(let i = 1; i < nums.length; i++){
+//     if(nums[i] < smallestNumber){
+//         smallestNumber = nums[i]
+//     }
+// }
+// console.log(smallestNumber)
+// const nums = [3, 57, -9, 20, 67]
+// for(let i=0; i < nums.length; i++){
+//     console.log(nums[i] % 2)
+// }
+
+// PART THREE 
+
+// Create the code that will log the number of times the letter "e" occurs in the string.
+// Create the code that will log every other character in the string.
+
+// const myString = "learn student"
+
+// let count = 0
+// for(let i=0; i < myString.length; i++){
+//     if(myString[i] === "e")
+//     count+=1
+// }
+// console.log(count)
+
+
+// for(let i=0; i < myString.length; i +=2){
+// console.log(myString[i])
+// }
+
+
+
+
+
+
+
+
+
