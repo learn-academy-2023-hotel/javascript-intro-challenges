@@ -1,5 +1,5 @@
 // Jas First Driver
-// var groceryList = ["chips", "dip", "cookies"]
+ // var groceryList = ["chips", "dip", "cookies"]
 //     groceryList.push("soda")    
 // console.log(groceryList)
 
@@ -9,10 +9,13 @@
 
 // Dalton Second Driver
 
-// var groceryList = ["chips", "dip", "cookies"]
-
 // console.log(groceryList.pop())
 // console.log(groceryList)
 
 // groceryList.push("beans")
 // console.log(groceryList)
+
+//Jas Driving Round 2
+
+var numSet = [2,13,6,8,4,2]
+console.log(numSet.index)
