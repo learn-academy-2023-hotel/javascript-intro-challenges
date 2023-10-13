@@ -27,12 +27,15 @@
 
 
 const nums = [3, 57, -9, 20, 67]
+let bigNum = 0
 // Create the code that will log the largest number from the array.
-// for (let i = 0; i < nums.length; i++) {
-//   if (nums[i] === 67) {
-//     console.log(nums[i])
-//   }
-// }
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] > bigNum) 
+  bigNum = nums[i]
+  }
+    console.log(bigNum)
+  
+ 
 
 // Create the code that will log the smallest number from the array.
 
@@ -43,9 +46,9 @@ const nums = [3, 57, -9, 20, 67]
 //   }
 // Create the code that will log the remainder of each number when divided by 2.
 
-for (let i = 0; i < nums.length; i++) {
-      console.log(nums[i] % 2)
-    }
+// for (let i = 0; i < nums.length; i++) {
+//       console.log(nums[i] % 2)
+//     }
   
 
 // Expected output: 1, 1, -1, 0, 1
