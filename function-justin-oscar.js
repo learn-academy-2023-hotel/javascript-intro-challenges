@@ -55,6 +55,15 @@ console.log(assignGrade(71))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
+const isLonger = (string1, string2) => {
+    if(string1.length > string2.length){
+        return `${string1} is the longer string`
+    }
+    else {
+        return `${string2} is the longer string` 
+    }
+}
+console.log(isLonger("sleep", "no sleep"))
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
