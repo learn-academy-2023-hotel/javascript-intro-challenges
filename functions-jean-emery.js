@@ -41,10 +41,52 @@
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
+// const divisibleBy = (num1, num2) => {
+//     if (num1 % num2 === 0) {
+//         return `"${num1} is evenly divisible by ${num2}"`
+//     }
+//     else {
+//     return `"${num1} is not divisible by ${num2}"`   
+//     }
+// }
+// console.log(divisibleBy(10,5))
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+
+// const assignGrade = (num) => {
+//     if (num >= 90) {
+//         return "You got an A"
+//     }
+//     else if (num >= 80) {
+//         return "You got a B"
+//     }
+//     else if (num >= 70) {
+//         return "You got a C"
+//     }
+//     else if (num >= 60) {
+//         return "You got a D"
+// }
+// else {
+//     return "You failed"
+// }
+// }
+// console.log(assignGrade(45))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
+// const isLonger = (string1, string2) => {
+//     if (string1.length > string2.length){
+//         return string1
+//     }
+//     else {
+//         return string2
+//     }
+// }
+// console.log(isLonger("Jean", "Emery"))
+// Output: Emery
+
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+
+
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
