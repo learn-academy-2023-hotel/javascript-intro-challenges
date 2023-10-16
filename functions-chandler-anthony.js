@@ -37,3 +37,51 @@ const triple = (number) => {
 }
 console.log(triple(3))
 console.log(triple(33))
+
+// Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
+    //create a variable declaration named multiply
+// const multiply = (number, number2) => {
+//     // create statement that multiplies two numbers and gives you an outcome of them multiplied together
+//     let newNumber = number * number2
+//     return newNumber
+//}
+// console.log(multiply(5, 8))
+// Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+    //create a variable declaration named divisibleBy for two variables
+    const divisibleBy = (numbers, numbers2) => {
+    // create a function that states if number 1 divided by number 2 has no remainder it returns the statement.  
+    // let remainder =  []
+    // for (let )
+    if (numbers % numbers2 === 0){
+        return `${numbers} is evenly divisible by ${numbers2}`
+    
+    }
+}
+ console.log(divisibleBy(25, 5))
+// Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+  // create a function that states
+  const assignGrade = (grade) => {
+    if (grade > 89){
+        return "A"
+    } else if (grade > 79){
+        return "B"
+    } else if (grade > 69){
+        return "C"
+    } else if  (grade > 59){
+        return "D"
+    } else {
+     return "F" }
+}
+console.log(assignGrade(76))
+// Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+const isLonger = (string, string2) => {
+if (string.length > string2.length){
+    return {string}
+ } else {
+    return string2  
+    }
+}
+ console.log(isLonger("food", "tenth"))
+
+
+
