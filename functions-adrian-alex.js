@@ -95,8 +95,25 @@
 // console.log(greaterNum(10, 8))
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
-const yelling = (words) => {
-    return words.toUpperCase()
-}
+// const yelling = (words) => {
+//     return words.toUpperCase()
+// }
 
-console.log(yelling("hello"))
+// console.log(yelling("hello"))
+
+// Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+
+// Have your function default to returning English.
+
+// const helloWorld = (language) => {
+//     if(language === "es") {
+//         return "hola mundo"
+//     } else if(language === "de") {
+//         return "hallo welt"
+//     } else 
+//         return "hello world"
+// } 
+
+// console.log(helloWorld("de"))
+// console.log(helloWorld("es"))
+// console.log(helloWorld())
