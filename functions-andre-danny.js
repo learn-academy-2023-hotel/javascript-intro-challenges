@@ -71,7 +71,8 @@
 // console.log(greatNum(9,0))
 // console.log(greatNum(2,7))
 
-const yellingWord = (yelling) => {
-    return `${yelling}
-}
-console.log(yellingWord("shouting this to you"))
+// const yellingWord = (yelling) => {
+// }return `${yelling}
+
+
+// console.log(yellingWord("shouting this to you")
