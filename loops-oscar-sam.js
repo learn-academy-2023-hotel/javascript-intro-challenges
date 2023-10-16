@@ -14,10 +14,20 @@
 //     console.log([i] * 3)
 // }
 
-for (let i = 1; i < 20; i++){
-    if (i % 2 !== 0) {
-         console.log("ODD")}
-            else{
-                console.log(i)
-            }
+// for (let i = 1; i < 20; i++){
+//     if (i % 2 !== 0) {
+//          console.log("ODD")}
+//             else{
+//                 console.log(i)
+//             }
+//     }
+
+
+const nums = [3, 57, -9, 20, 67]
+
+for( var i = 0; i < array.length; i++){ 
+    if(largest < nums[i]) { 
+        largest = nums[i] 
     }
+} 
+    console.log(largest);
