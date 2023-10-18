@@ -20,6 +20,7 @@
 // // Write the code that will log the string in all uppercase letters.
 // console.log(name.toUpperCase())
 
+
 const theQuestion = "life, the universe, and everything"
 const theAnswer = 42
 
@@ -51,3 +52,6 @@ console.log(theQuestion.length)
 //     }
 // Write the code that will log the last character of theQuestion without manually counting the number of characters.
 console.log(theQuestion.charAt(theQuestion.length - 1))
+
+
+
