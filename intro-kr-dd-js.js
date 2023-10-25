@@ -64,14 +64,17 @@
 // Does "LEARN"[0] strictly equal "l"?
 // Modify the code from the previous question to return true.
 
-console.log(34/3 > 67/2)
-console.log(5 == '5')
-console.log(5 === '5') //false
-console.log(!3 === 3) //false
-console.log("LEARN".length === 5 && "Student".length === 7) //true
-console.log("LEARN".length === 5 || "student".length === 10 ) // true
-console.log("LEARN".includes("RN")) //true
-console.log("LEARN".includes("rn")) // false
-console.log("LEARN"[0] === 'l') // false
-console.log("LEARN"[0] !== 'l') // true
+// console.log(34/3 > 67/2)
+// console.log(5 == '5')
+// console.log(5 === '5') //false
+// console.log(!3 === 3) //false
+// console.log("LEARN".length === 5 && "Student".length === 7) //true
+// console.log("LEARN".length === 5 || "student".length === 10 ) // true
+// console.log("LEARN".includes("RN")) //true
+// console.log("LEARN".includes("rn")) // false
+// console.log("LEARN"[0] === 'l') // false
+// console.log("LEARN"[0] !== 'l') // true
 
+var learnStudent = ["debra", "jonas", 'joel', true]
+learnStudent[3] = false
+console.log(learnStudent)

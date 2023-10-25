@@ -48,6 +48,7 @@
 // console.log(numSet.lastIndexOf(2))
 // console.log(numSet.indexOf(8))
 
+
 // Write the code that will add "soda" to the end of the original array.
 // Write the code that will add "granola" to the end of the array without altering the original array.
 // Write the code that will return a subset of the array containing only "chips" and "dip".
@@ -104,6 +105,7 @@
 
 
 
+
 /////////////// ********LOOPS******//////////////
 
 // Javascript Loops
@@ -138,19 +140,32 @@
 
 //     }
 
+
+//                Part two          ///////
+
+
 //               Part two          ///////
+
 // Create the code that will log the largest number from the array.
 // Create the code that will log the smallest number from the array.
 // Create the code that will log the remainder of each number when divided by 2.
 // Expected output: 1, 1, -1, 0, 1
+
+
 //const nums = [3, 57, -9, 20, 67]
 // let largestNumber = nums[0]
+
+
+//const nums = [3, 57, -9, 20, 67]
+// let largestNumber = nums[0]
+
 // for(let i = 1; i < nums.length; i ++){
 //     if(nums[i] > largestNumber){
 //         largestNumber = nums[i]
 //     }
 //     }
 // console.log(largestNumber)
+
 // let smallestNumber = nums[0]
 // for(let i = 1; i < nums.length; i++){
 //     if(nums[i] < smallestNumber){
@@ -162,6 +177,7 @@
 // for(let i=0; i < nums.length; i++){
 //     console.log(nums[i] % 2)
 // }
+
 
 // PART THREE 
 
@@ -181,6 +197,7 @@
 // for(let i=0; i < myString.length; i +=2){
 // console.log(myString[i])
 // }
+
 
 
 
